@@ -93,6 +93,8 @@ h6 {
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
+  width: 1280px;
+  margin: 0 auto;
 }
 .top-block {
   display: flex;
@@ -185,20 +187,32 @@ h1 {
 .next-button {
   background: #156963;
 }
-.previous-button span:first-child,
-.next-button span:first-child {
+.previous-button span:nth-child(2),
+.next-button span:nth-child(1) {
   display: inline-block;
-  margin: 39px 0 0 49px;
+  margin: 39px 0 0 0;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   color: #333333;
 }
+.previous-button span:nth-child(2) {
+  margin-left: 8px;
+}
+.next-button span:nth-child(1) {
+  margin-left: 49px;
+}
 .previous-button img,
 .next-button img {
   display: inline-block;
   margin: 39px 0 0 8px;
+}
+.previous-button img {
+  margin-left: 49px;
+}
+.next-button img {
+  transform: rotate(180deg);
 }
 .previous-button span:last-child,
 .next-button span:last-child {
@@ -214,6 +228,135 @@ h1 {
 .next-button span:last-child {
   color: #ffffff;
 }
+
+.benefits-block {
+  display: inline-block;
+  width: 1280px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 auto;
+}
+/*  ------------- BENEFITS ----------------------------- */
+.benefits {
+  margin: 142px 0 0 56px;
+}
+
+/*  FAST DELIVERY*/
+.benefits-fast-delivery {
+  display: inline-block;
+  width: 268px;
+  height: 155px;
+  border: 1px solid #e0e0e0;
+  padding: 21px 16px;
+}
+.benefits-fast-delivery p:nth-child(2) {
+  display: inline-block;
+  width: 100px;
+  height: 48px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #156963;
+}
+.benefits-fast-delivery p:nth-child(3) {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #2c1500;
+}
+
+/* GREAT CUSTOMER SERVICE */
+
+.benefits-grate-customer-service {
+  display: inline-block;
+  width: 268px;
+  height: 155px;
+  border: 1px solid #e0e0e0;
+  padding: 21px 16px;
+  margin-left: 32px;
+}
+.benefits-grate-customer-service p:nth-child(2) {
+  display: inline-block;
+  width: 137px;
+  height: 48px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #156963;
+}
+.benefits-grate-customer-service p:nth-child(3) {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #2c1500;
+}
+
+/* ORIGINAL PLANTS */
+.benefits-original-plants {
+  display: inline-block;
+  width: 268px;
+  height: 155px;
+  border: 1px solid #e0e0e0;
+  padding: 21px 16px;
+  margin-left: 32px;
+}
+.benefits-original-plants p:nth-child(2) {
+  display: inline-block;
+  width: 120px;
+  height: 48px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #156963;
+}
+.benefits-original-plants p:nth-child(3) {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #2c1500;
+}
+
+/* AFFORDABLE PRICE */
+.benefits-affordable-price {
+  display: inline-block;
+  width: 268px;
+  height: 155px;
+  border: 1px solid #e0e0e0;
+  padding: 21px 16px;
+  margin-left: 32px;
+}
+.benefits-affordable-price p:nth-child(2) {
+  display: inline-block;
+  width: 120px;
+  height: 48px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #156963;
+}
+.benefits-affordable-price p:nth-child(3) {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #2c1500;
+}
+
 /* .logo {
   display: inline-block;
   width: 36px;
