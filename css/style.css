@@ -1,0 +1,231 @@
+/* Обнуление стилей по умолчанию. Взято отсюда: https://youtu.be/kfOe-F64C_A?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr*/
+
+/* убираем все отступы и рамки */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* Эта штука меняет подсчет ширины блока так чтобы нам было удобней верстать */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* убираем линии обводки у некоторых браузеров */
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+/* перечисляем некоторые теги и делаем ихблочными */
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+/* К тегам HTML и BODY применяем парметры которые уравниваю поведение шрифтов и элементов для разных браузеров */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/* Теги форм теперь наследуют шрифт */
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+/* Устраняют други е нюансы поведения тегов разных браузеров */
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+/* Обнуляем все наши заголовки h */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+}
+.top-block {
+  display: flex;
+  padding: 0;
+  width: 1280px;
+  margin: 0 auto;
+  background: url("../img/Mask\ Group.jpg") 0 0/608px 740px no-repeat;
+  background: #ffffff;
+}
+.plant-photo {
+  display: inline-block;
+  width: 608px;
+  margin: 0;
+  padding: 0;
+}
+.block-with-slider {
+  display: inline-block;
+  width: 670px;
+  margin: 0 0 0 0;
+}
+
+header {
+  font-family: "Nunito Sans", sans-serif;
+  height: 36px;
+  margin: 40px 0 0 306px;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.search {
+  vertical-align: middle;
+}
+.shopping-cart {
+  vertical-align: middle;
+  margin: 0 0 0 40px;
+}
+.sign-up {
+  margin: 0;
+  display: inline-block;
+  width: 111px;
+  height: 36px;
+  padding: 7px 0 0 5px;
+  color: #156963;
+  vertical-align: middle;
+}
+.sign-in {
+  background: #156963;
+  color: #ffffff;
+  display: inline-block;
+  width: 111px;
+  height: 36px;
+  padding: 7px 0 0 0px;
+}
+h1 {
+  width: 523px;
+  height: 166px;
+  margin: 110px 0 0 77px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 83px;
+  color: #156963;
+}
+.top-block-text-1 {
+  width: 493px;
+  height: 96px;
+  margin: 24px 0 0 77px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2c1500;
+  opacity: 0.8;
+}
+.previous-button,
+.next-button {
+  display: inline-block;
+  width: 320px;
+  height: 160px;
+
+  margin-top: 108px;
+}
+.previous-button {
+  background: #ffffff;
+  margin-left: 26px;
+}
+.next-button {
+  background: #156963;
+}
+.previous-button span:first-child,
+.next-button span:first-child {
+  display: inline-block;
+  margin: 39px 0 0 49px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+.previous-button img,
+.next-button img {
+  display: inline-block;
+  margin: 39px 0 0 8px;
+}
+.previous-button span:last-child,
+.next-button span:last-child {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  margin: 12px 0 0 49px;
+}
+.previous-button span:last-child {
+  color: #156963;
+}
+.next-button span:last-child {
+  color: #ffffff;
+}
+/* .logo {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("../img/Polygon\ 1.svg") no-repeat;
+  text-align: center;
+  padding: 10px 15px 9px 11px;
+  margin: 40px 0 0 56px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+} */
