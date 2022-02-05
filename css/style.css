@@ -357,6 +357,334 @@ h1 {
   color: #2c1500;
 }
 
+/* -------------------- MIDDLE BLOCK -------------------------*/
+.middle-block {
+  width: 1280px;
+  background: #ffffff;
+  padding-bottom: 80px;
+}
+.features_plants {
+  display: inline-block;
+  width: 1168px;
+  margin: 80px 56px 0;
+}
+.features_plants-top {
+  display: flex;
+  width: 1168px;
+  height: 47px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.features_plants-top p {
+  display: inline-block;
+  width: 162px;
+  height: 24px;
+  margin: 3.5px 0 19.5px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.features_plants-top form {
+  display: inline-block;
+}
+.features_plants-top select {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  width: 130px;
+  height: 31px;
+  margin: 0 0 0 874px;
+  border: 1px solid #e0e0e0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.features_plants-price {
+  display: flex;
+  margin-top: 24px;
+  width: 1168px;
+}
+
+.features_plants-price-kaktus-plants,
+.features_plants-price-landak-plants,
+.features_plants-price-kecubung-plants1,
+.features_plants-price-kecubung-plants2,
+.features_plants-price-kecubung-plants3 {
+  display: inline-block;
+  width: 217px;
+  height: 281px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.features_plants-price-kaktus-plants p:nth-child(2),
+.features_plants-price-landak-plants p:nth-child(2),
+.features_plants-price-kecubung-plants1 p:nth-child(2),
+.features_plants-price-kecubung-plants2 p:nth-child(2),
+.features_plants-price-kecubung-plants3 p:nth-child(2) {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  margin: 16px auto 0px;
+}
+
+.features_plants-price-kaktus-plants p:nth-child(3),
+.features_plants-price-landak-plants p:nth-child(3),
+.features_plants-price-kecubung-plants1 p:nth-child(3),
+.features_plants-price-kecubung-plants2 p:nth-child(3),
+.features_plants-price-kecubung-plants3 p:nth-child(3) {
+  width: 110px;
+  height: 20px;
+  font-weight: 600;
+  margin: 8px auto 0px;
+}
+
+.features_plants-price-landak-plants,
+.features_plants-price-kecubung-plants1,
+.features_plants-price-kecubung-plants2,
+.features_plants-price-kecubung-plants3 {
+  margin-left: 20px;
+}
+
+.buy-more {
+  white-space: nowrap;
+  display: inline-block;
+  width: 1165px;
+  height: 610px;
+  margin: 80px 0 0 58px;
+  white-space: normal;
+}
+.buy-more-text-with-picture {
+  display: inline-block;
+  width: 647px;
+  height: 610px;
+  margin: 0;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  color: #2c1500;
+}
+
+.buy-more-text-with-picture h2 {
+  display: inline-block;
+  width: 522px;
+  height: 112px;
+  margin: 9.7px 0 0 21px;
+}
+.buy-more-text-with-picture p {
+  display: inline-block;
+  width: 522px;
+  height: 140px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #2c1500;
+  opacity: 0.8;
+  margin: 16px 0 0 21px;
+}
+
+.buy-more-text-with-picture--picture {
+  display: inline-block;
+  width: 568px;
+  height: 250px;
+  background: url("../img/liana-mikah-8tJxjQWTyNA-unsplash\ 1.jpg") 0 0
+    no-repeat;
+  margin: 74px 0 7px 0px;
+}
+
+.buy-more-picture {
+  display: inline-block;
+  width: 512px;
+  height: 610px;
+  background: url("../img/jason-leung-r5pPYI6lEpA-unsplash\ 1.jpg") 0 0
+    no-repeat;
+}
+
+.visit-shop {
+  display: flex;
+  width: 1168px;
+  height: 360px;
+  background: #f3f4f6;
+  margin: 80px 0 0px 56px;
+}
+.visit-shop-text-with-button {
+  display: inline-block;
+  width: 670px;
+  height: 360px;
+  background: #f3f4f6;
+}
+
+.visit-shop-text-with-button h2 {
+  width: 585px;
+  height: 112px;
+  margin: 88px 0 0 97px;
+}
+.visit-shop-picture {
+  display: inline-block;
+  width: 480px;
+  height: 360px;
+  background: #f3f4f6;
+  background: #f3f4f6 url("../img/plant-in-hand.jpg") -37px 0 no-repeat;
+  margin: 0 0 0 111px;
+}
+.visit-shop-text-with-button button {
+  width: 152px;
+  height: 40px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #fafefe;
+  background: #156963;
+  margin: 32px 0 0 97px;
+}
+footer {
+  display: flex;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  padding-bottom: 71px;
+}
+/* FIRST COLUMN */
+.footer-first-column {
+  display: inline-block;
+  width: 282px;
+  height: 137px;
+  margin: 60px 0 0 167px;
+}
+.footer-first-column p:nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #156963;
+}
+.footer-first-column p:nth-child(2) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  margin: 24px 0 0 0;
+}
+.footer-first-column p:nth-child(3) {
+  white-space: normal;
+  width: 282px;
+  height: 60px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #4f4f4f;
+  margin: 10px 0 0 0;
+}
+
+/*   SECOND COLUMN */
+.footer-second-column {
+  display: inline-block;
+  width: 97px;
+  height: 137px;
+  margin: 60px 0 0 80px;
+
+  font-style: normal;
+  line-height: 16px;
+  color: #000000;
+}
+.footer-second-column p:nth-child(1) {
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-second-column p:nth-child(2),
+.footer-second-column p:nth-child(3) {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 14px;
+}
+/*   THIRD COLUMN */
+.footer-third-column {
+  display: inline-block;
+  width: 97px;
+  height: 137px;
+  margin: 60px 0 0 80px;
+
+  font-style: normal;
+  line-height: 16px;
+  color: #000000;
+}
+.footer-third-column p:nth-child(1) {
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-third-column p:nth-child(2),
+.footer-third-column p:nth-child(3) {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/*   FOURTH COLUMN */
+.footer-fourth-column {
+  display: inline-block;
+  width: 234px;
+  height: 137px;
+  margin: 60px 0 0 80px;
+
+  font-style: normal;
+  line-height: 16px;
+  color: #000000;
+}
+.footer-fourth-column p:nth-child(1) {
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-fourth-column input {
+  width: 234px;
+  height: 32px;
+  margin: 14px 0 0 0;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+}
+.footer-fourth-column input::placeholder {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.5;
+  margin: 8px 0 8px 13px;
+}
+
+.footer-fourth-column button {
+  width: 51px;
+  height: 22px;
+  margin: 14px 0 0 0;
+  background: #156963;
+  backdrop-filter: blur(10px);
+  border-radius: 2px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
 /* .logo {
   display: inline-block;
   width: 36px;
